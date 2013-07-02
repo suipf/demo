@@ -1,4 +1,0 @@
-{
-  "config_vars" => { "RACK_ENV" => "production" },
-  "default_process_types" => { "web" => "bundle exec rackup config.ru -p $PORT" }
-}.to_yaml
